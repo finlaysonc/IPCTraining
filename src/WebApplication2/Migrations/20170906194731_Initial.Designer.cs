@@ -8,9 +8,10 @@ using WebApplication2.Models;
 namespace WebApplication2.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20170906194731_Initial")]
+    partial class Initial
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.0.1")
@@ -21,8 +22,7 @@ namespace WebApplication2.Migrations
                     b.Property<int>("StudentId")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("FirstName")
-                        .IsRequired();
+                    b.Property<string>("FirstName");
 
                     b.Property<string>("LastName");
 

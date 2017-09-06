@@ -196,6 +196,8 @@
 "C:\Source\course\IPCTraining\src\WebApplication2\Controllers\StudentsController.cs"
 "C:\Source\course\IPCTraining\src\WebApplication2\Migrations\20170906194731_Initial.cs"
 "C:\Source\course\IPCTraining\src\WebApplication2\Migrations\20170906194731_Initial.Designer.cs"
+"C:\Source\course\IPCTraining\src\WebApplication2\Migrations\20170906213827_RequiredFirstAndLastName.cs"
+"C:\Source\course\IPCTraining\src\WebApplication2\Migrations\20170906213827_RequiredFirstAndLastName.Designer.cs"
 "C:\Source\course\IPCTraining\src\WebApplication2\Migrations\AppDbContextModelSnapshot.cs"
 "C:\Source\course\IPCTraining\src\WebApplication2\Models\AppDbContext.cs"
 "C:\Source\course\IPCTraining\src\WebApplication2\Models\Student.cs"

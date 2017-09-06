@@ -10,7 +10,9 @@ namespace WebApplication2.Models
     {
         [Key]
         public int StudentId { get; set; }
+        [Required]
         public string FirstName { get; set; }
+        [Required]
         public string LastName { get; set; }
     }
 }
